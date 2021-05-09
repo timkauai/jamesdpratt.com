@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="header"><h3>👋  Hey!</h3><h1>I'm James D. Pratt</h1><div className="portrait"></div></div>
+      
+      <div className="school backside"><h4>📚</h4>I am a current undeclared student at Santa Clara in the Leavey School of Buisness. With a passion for
+many fields from Information Systems to Real 
+Estate. </div>
+<div className="work backside"><h4>💼</h4>Previously, I worked at Hokuala, the local golf course, as a Cart Boy. I volunteered at Nalukai Academy as a team lead. </div>
+
+<div className="circles"><div className="circ1"></div>
+<div className="circ2"></div>
+<div className="circ3"></div></div>
+<div className="now backside"><h4>📅</h4>Currently, I am learning more about the world of Commercial Real Estate by working at the family buisness. </div>
+
+<div className="skills backside"><h4>💻</h4>I am profecient with Excel. Beyond that I frequently explore my passion in programming with web development tools like react and ocassionally python.</div>
+
+<div className="buttons">
+  <a className="email" href="mailto:work@jamesdpratt.com">Shoot me an Email</a>
+  <a className="linkedin" href="https://www.linkedin.com/in/jamesdprattt/">Check Out my Linkedin</a>
+  <a className="resume" href="./jamesprattresume.pdf" download>Download my Resume</a>
+</div>
+
     </div>
   );
 }
