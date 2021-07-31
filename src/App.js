@@ -17,10 +17,6 @@ Estate. </div>
 
 <div className="skills backside"><h4>💻</h4>I am profecient with Excel. Beyond that I frequently explore my passion in programming with web development tools like react and ocassionally python.</div>
 
-<div className="buttons">
-  <a className="linkedin"> Hand Coded in React by Me</a>
-</div>
-
     </div>
   );
 }
