@@ -18,9 +18,7 @@ Estate. </div>
 <div className="skills backside"><h4>💻</h4>I am profecient with Excel. Beyond that I frequently explore my passion in programming with web development tools like react and ocassionally python.</div>
 
 <div className="buttons">
-  <a className="email" href="mailto:work@jamesdpratt.com">Shoot me an Email</a>
-  <a className="linkedin" href="https://www.linkedin.com/in/jamesdprattt/">Check Out my Linkedin</a>
-  <a className="resume" href="./jamesprattresume.pdf" download>Download my Resume</a>
+  <a className="linkedin"> Hand Coded in React by Me</a>
 </div>
 
     </div>
