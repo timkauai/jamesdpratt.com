@@ -91,10 +91,11 @@ html {
 }
 
 .skills {
-  margin-top: 35vh;
+  margin-top: 40vh;
   padding-left: 19vw;
   margin-left: -16vw;
   width: 60vw;
+  margin-bottom: 10vh;
 }
 
 .buttons {
