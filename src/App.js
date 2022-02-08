@@ -5,9 +5,7 @@ function App() {
     <div className="App">
       <div className="header"><h3>👋  Hey!</h3><h1>I'm James D. Pratt</h1><div className="portrait"></div></div>
       
-      <div className="school backside"><h4>📚</h4>I am a current undeclared student at Santa Clara in the Leavey School of Buisness. With a passion for
-many fields from Information Systems to Real 
-Estate. </div>
+      <div className="school backside"><h4>📚</h4>I am a current finance student at Santa Clara in the Leavey School of Buisness, with a minor in Real Estate. </div>
 <div className="work backside"><h4>💼</h4>Previously, I worked at Hokuala, the local golf course, as a Cart Boy. Also, I volunteered at Nalukai Academy as a team lead. </div>
 
 <div className="circles"><div className="circ1"></div>
