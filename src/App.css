@@ -24,132 +24,72 @@ html {
   background-color: #F4F1DE;
   color: #023E8A;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: 75vw 25vw;
+  grid-template-rows: 15vh 80vh 5vh;
+  grid-template-areas: "head port"
+                      "copy port"
+                      "proj port";
+}
+
 
 .header {
   display: grid;
   grid-template-columns: max-content auto max-content;
+  grid-area: head;
 }
 
 .portrait {
   background-color: #023E8A;
-  width: 70vh;
-  height: 70vh;
-  border-radius: 60vh;
-  margin-top: 2vh;
-  margin-right: -5vh;
   background-image: url('./portrait.JPG');
   background-position: center center;
   background-size: auto 150%;
   background-repeat: no-repeat;
+  grid-area: port;
+}
+
+.links {
+  grid-area: links;
+}
+
+.copy{
+  grid-area: copy;
+  margin-top: 4vh;
+  padding-right: 3vw;
+}
+
+.proj {
+  grid-area: proj;
 }
 
 .backside {
   font-family: 'Hind Madurai', sans-serif;
   font-weight: 600;
-  font-size: 30px;
-  background-color: #F2CC8F;
+  font-size: 20px;
   color: #1E0C68;
   padding: 3vh;
   display: grid;
   grid-template-columns: max-content 1fr;
-  width: 50vw;
-  border-radius: 40px;
-}
-
-.school {
-  padding-right: 9vw;
-  margin-top: -55vh;
-  margin-left: 10vw;
+  margin-left: 4vw;
 }
 
 .backside h4 {
-  font-size: 70px;
+  font-size: 40px;
   font-family: 'Hind Madurai', sans-serif;
   margin: 0;
   padding:0;
-  padding-right: 3vw;
+  padding-right: 2vw;
 }
 
 .work {
-  margin-top: 5vh;
-  width: 64vw;
-  padding-left: 10vw;
-  margin-left: -7vw;
+  float: left;
+
 }
 
 .now {
-  margin-top: 7vh;
-  padding-right: 10vw;
-  margin-right: -12vw;
-  float: right;
-  width: 60vw;
-}
-
-.now h4 {
-  padding-left: 3vw;
-}
-
-.skills {
-  margin-top: 40vh;
-  padding-left: 19vw;
-  margin-left: -16vw;
-  width: 60vw;
-  margin-bottom: 10vh;
-}
-
-.buttons {
-  margin-left: 7vw;
-  margin-top: 10vh;
-  padding-bottom: 5vh;
-  display: grid;
-  grid-template-columns: max-content max-content max-content;
-  grid-column-gap: 5vw;
-}
-
-.buttons a {
-  padding: 3vh;
-  border-radius: 25px;
-  width: max-content;
-  font-family: 'Rubik', sans-serif;
-  font-size: 30px;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.linkedin {
-  float: right;
-}
-
-.circles {
-  width: 30vw;
-  height: 30vh;
   float: left;
-  margin-left: 5vw;
-  margin-top: 3vh;
-}
-
-.circ1 {
-  width: 10vh;
-  height: 10vh;
-  border-radius: 10vh;
-  background-color: #E76F51;
-}
-
-.circ2 {
-  width: 30vh;
-  height: 30vh;
-  border-radius: 30vh;
-  background-color: #81B29A;
-  margin-top: -15vh;
-  margin-left: 5vh;
-}
-
-.circ3 {
-  width: 7vh;
-  height: 7vh;
-  border-radius: 30vh;
-  background-color: #F2CC8F;
-  margin-top: -5vh;
-  margin-left: 40vh;
 }
